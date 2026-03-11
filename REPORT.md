@@ -143,9 +143,38 @@ També hem entès la importància de coordinar-nos millor per evitar conflictes 
 
 ### 5.1 Descripció del conflicte
 
+Hem fet cambis en l'arxiu package.json, cada un en la nostre branca fem els cambis, el que hem fet es editar la versio del mateix paquet a una versio diferent
+
 ### 5.2 Error generat
 
+This branch has conflicts that must be resolved
+Use the web editor or the command line to resolve conflicts before continuing.
+
+Ativitat_3_5/Ativitat_3_1_base/package.json
+
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+<<<<<<< david
+        "axios": "^0.27.2",
+=======
+        "axios": "^1.6.0",
+>>>>>>> main
+        "laravel-vite-plugin": "^0.2.1",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vite": "^2.9.11"
+    }
+}
+
+
 ### 5.3 Resolució aplicada
+
+...
 
 ### 5.4 Diferències respecte al conflicte anterior
 
@@ -196,3 +225,4 @@ Responeu breument:
 - Quina ha estat la part més complexa?
 - Què faríeu diferent en un projecte real?
 - Heu entès realment com funcionen els conflictes i Docker?
+
