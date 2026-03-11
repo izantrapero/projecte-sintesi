@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<h1>Editar Llibre</h1>
+<h1>Editar els Llibres</h1>
 <a href="{{ route('llibre_list') }}">&laquo; Torna</a>
 <div style="margin-top: 20px">
     <form method="POST" action="{{ route('llibre_edit', ['id' => $llibre->id]) }}">
