@@ -143,7 +143,7 @@ També hem entès la importància de coordinar-nos millor per evitar conflictes 
 
 ### 5.1 Descripció del conflicte
 
-Hem fet cambis en l'arxiu package.json, cada un en la nostre branca fem els cambis, el que hem fet es editar la versio del mateix paquet a una versio diferent
+Hem editat l'arxiu edit.llibre, cada un en la seva branca, un dels dos fa un rename del arxiu mentre que l'altre edita l'arxiu, en el nostre cas li hem canviat el títol.
 
 ### 5.2 Error generat
 
@@ -155,14 +155,13 @@ Ativitat_3_5/Ativitat_3_1_base/resources/views/llibre/edit.blade.php
 En aquest conflicte la diferencia es que aquest tipus d'errors son mes complexes y no deixa tenir una resolucio mes sencilla que amb el primer error. 
 En aquest cas, hem cambiat el nom de l'archiu y posteriorment hem editat contingut d'aquest fitxer y al fer merge ha aparegut el conflicte.
 
-La solucio que hem fet es fer fer pull y merge a les branques on estaben editant per que s'apliquin els cambis del nom de l'archiu y a partir d'aqui editar el contingut sense cap tipus de conflicte.
-
-
 ### 5.3 Resolució aplicada
 
-...
+La solucio que hem fet es fer fer pull y merge a les branques on estaben editant per que s'apliquin els cambis del nom de l'archiu y a partir d'aqui editar el contingut sense cap tipus de conflicte.
 
 ### 5.4 Diferències respecte al conflicte anterior
+
+La solució que hem fet és fer pull i merge a les branques on estaven editant perquè s'apliquin els canvis del nom de l'arxiu i a partir d'aquí editar el contingut sense cap classe de conflicte.
 
 ## 6. Dockerització
 
@@ -211,6 +210,7 @@ Responeu breument:
 - Quina ha estat la part més complexa?
 - Què faríeu diferent en un projecte real?
 - Heu entès realment com funcionen els conflictes i Docker?
+
 
 
 
