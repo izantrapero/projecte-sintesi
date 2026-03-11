@@ -194,14 +194,15 @@ Indiqueu també:
 
 ## 8. Repartiment de tasques
 
-Descriviu què ha fet cada membre de l’equip.
+Izan -> Creació projecte/repositori, dockerització, documentació i ajuda a fer els conflictes.
+David -> Conflicte 2, documentació i creació de branques.
+Iván -> Conflicte 1, documentació, adaptació del workflow i prova de desplegament des de zero.
 
 ## 9. Temps invertit
 
-Indiqueu aproximadament:
-- Temps dedicat a Git
-- Temps dedicat a Docker
-- Temps dedicat a documentació
+- Temps dedicat a Git -> 4h
+- Temps dedicat a Docker -> 2h
+- Temps dedicat a documentació -> 2h
 
 ## 10. Reflexió final
 
@@ -210,6 +211,7 @@ Responeu breument:
 - Quina ha estat la part més complexa?
 - Què faríeu diferent en un projecte real?
 - Heu entès realment com funcionen els conflictes i Docker?
+
 
 
 
