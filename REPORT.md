@@ -155,6 +155,8 @@ Ativitat_3_5/Ativitat_3_1_base/resources/views/llibre/edit.blade.php
 En aquest conflicte la diferencia es que aquest tipus d'errors son mes complexes y no deixa tenir una resolucio mes sencilla que amb el primer error. 
 En aquest cas, hem cambiat el nom de l'archiu y posteriorment hem editat contingut d'aquest fitxer y al fer merge ha aparegut el conflicte.
 
+La solucio que hem fet es fer fer pull per que s'apliquin els cambis del nom de l'archiu y a partir d'aqui editar el contingut sense cap tipus de conflicte.
+
 
 ### 5.3 Resolució aplicada
 
@@ -209,5 +211,6 @@ Responeu breument:
 - Quina ha estat la part més complexa?
 - Què faríeu diferent en un projecte real?
 - Heu entès realment com funcionen els conflictes i Docker?
+
 
 
