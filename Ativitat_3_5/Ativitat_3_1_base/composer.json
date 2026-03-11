@@ -9,7 +9,8 @@
         
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^2.14.1",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "monolog/monolog": "^3.0"
     },
     
     "require-dev": {
