@@ -394,14 +394,31 @@ Aquestes extensions són requerides per Laravel i per alguns dels seus paquets.
 
 ## 7. Prova de desplegament des de zero
 
-  Expliqueu els passos exactes que hauria de seguir una persona externa:
-- Clonar repositori
-- Executar comanda
-- Accedir a l’aplicació  
+El contenidor fa servir els ports 8000 i 3306, els que exposa són els ports 8080 i 3307.
 
-Indiqueu també:
-- Ports utilitzats
-- Credencials de prova (si n’hi ha)
+Primer clonarem el repositori:
+``` bash
+git clone git@github.com:izantrapero/projecte-sintesi.git
+```
+
+Has de fer una copia de l'arxiu .env.example i anomenar-ho .env, a dins pots posar les teves credencials que vulguis o deixar-ho per defecte.
+
+Per a desplegar el contenidor has de tenir docker instal·lat:
+``` bash
+docker -v
+```
+
+Ara contruïrem el contenidor:
+``` bash
+docker compose up --build -d
+```
+
+Has d'esperar uns 30 segons aproximadament per a que arrenqui la base de dades i en qualsevol navegador s'accedeix amb el port 8080 per defecte:
+``` bash
+http://localhost:8080
+```
+
+Ara ja tenim la aplicació funcional.
 
 ## 8. Repartiment de tasques
 
