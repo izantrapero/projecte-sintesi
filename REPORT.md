@@ -437,10 +437,17 @@ Ara ja tenim la aplicació funcional.
 Responeu breument:
 
 - Quina ha estat la part més complexa?
+
+  La part més complexa a l'hora de fer el projecte va ser a dockertizar-lo, vam tenir alguns problemes i vam tardar una mica a solucionar-ho.
+  
 - Què faríeu diferent en un projecte real?
+
+  Canviaríem l'estructura i la planificació del projecte, en comptes d'anar a fer el projecte ràpidament doncs primer planificar que fer cadascun i ja després començar.
+  
 - Heu entès realment com funcionen els conflictes i Docker?
 
-
+  Els conflictes els hem entès molt bé, hem sabut com es provocaven i el perquè i també com solucionar-ho.
+  Sobre el docker hem après bastant de com implementar-ho i saber que s'ha d'introduir en el dockerfile i docker-compose.
 
 
 
