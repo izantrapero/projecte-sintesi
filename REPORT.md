@@ -4,7 +4,7 @@
 
 Nom del projecte: projecte-sintesi
 
-Integrants: Izan Trapero, David Sanchez, Iván Fernández
+Integrants: Izan Trapero, David Sánchez, Iván Fernández
 
 Tecnologia principal (Laravel / React / Fullstack): Laravel
 
